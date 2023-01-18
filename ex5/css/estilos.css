@@ -1,0 +1,49 @@
+.frame{
+    width: 800px;
+    height: 400px;
+    background: red;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.frame img{
+    width: 100%;
+}
+
+.overlay{
+    width: 800px;
+    height: 400px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.frame:hover .overlay{
+    display: block;
+}
+
+.frame:hover img{
+    width: 110%;
+}
+
+.overlay h1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.frame2{
+    background-image: url("../imagens/ponte1.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.frame2:hover{
+    background-image: url("../imagens/ponte2.jpg");
+}
+
+
