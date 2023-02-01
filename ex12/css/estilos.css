@@ -1,0 +1,70 @@
+.cx-1{
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: animaCaixa 3s forwards;
+}
+
+.cx-2{
+    display: none;
+    width: 100px;
+    height: 20px;
+    background: green;
+    animation: animaCaixa2 15s forwards;
+}
+
+.cx-3{
+    width: 100px;
+    height: 16px;
+    background: yellow;
+    overflow: hidden;
+}
+
+.cx-3:hover{
+    animation: animaMenu 3s forwards;
+}
+
+@keyframes animaCaixa {
+    from{
+        background: red;
+        width: 100px;
+        height: 100px;
+    }
+
+    to{
+        background: yellow;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@keyframes animaCaixa2{
+    0%{
+        background: green;
+        height: 20px;
+    }
+
+    20%{
+        background: blue;
+    }
+
+    80%{
+        background: purple;
+    }
+
+    100%{
+        background: pink;
+        height: 100px;
+    }
+}
+
+@keyframes animaMenu{
+    from{
+        height: 16px;
+    }
+
+    to{
+        height: 60px;
+    }
+}

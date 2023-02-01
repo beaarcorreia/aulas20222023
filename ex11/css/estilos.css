@@ -1,0 +1,30 @@
+.menu-principal li{
+    width:cal(25% - 2px);
+    float: left;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.menu-dropdown{
+    display: none;
+}
+
+.menu-dropdown li{
+    width: 100%;
+}
+
+.menu-principal li:hover .menu-dropdown{
+    display: block;
+}
+
+.menu-principal li:hover{
+    background: yellow;
+}
+
+.menu-dropdown li:hover{
+    background: orange;
+}
+
+.novo-subitem li:hover{
+    background: green;
+}
