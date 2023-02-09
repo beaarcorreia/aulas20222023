@@ -1,0 +1,8 @@
+
+    .container{
+    flex-direction: column;
+    }  
+
+    .caixa-1{
+        margin: 20px 0;
+    }
