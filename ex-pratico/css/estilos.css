@@ -1,0 +1,200 @@
+header {
+    width: 100%;
+    height: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+}
+
+nav .logo h1{
+    color: orange;
+    width: calc(50% - 40px);
+    margin: 20px;
+    float: left;
+}
+nav .menu {
+    width: calc(50% - 10px);
+    float: right;
+    margin: 5px;
+}
+
+nav .menu li{
+    float: left;
+    color: grey;
+    margin: 10px;
+}
+
+nav .menu .dropdown{
+    display: none;
+}
+
+nav .menu li:hover .dropdown{
+    display: block;
+}
+
+.hero {
+    background-image: url(../images/light_bulb.jpg);
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-style: bold;
+    color: white;
+    margin: 100px 200px 20px; 
+}
+
+.hero p {
+    font-size: 20px;
+    color: white;
+    margin: 20px 150px 20px; 
+}
+
+.quality {
+   /* background-color: blue;*/
+    width: 100%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.quality h1, .products h1{
+    font-size: 24px;
+    color: orange;
+    margin: 40px;
+    text-align: center;
+}
+
+.quality p{
+    font-size: 16px;
+    color: grey;
+    margin: 20px 150px;
+}
+
+
+.caixas-imagens {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+.caixas-imagens .unleash{
+    width: 33.3%;
+    height: 250px;
+    background-image: url(../images/mung_beans.jpg);
+    float: left;
+}
+
+.caixas-imagens .synergize{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-image: url(../images/coffee_beans_1.jpg);
+}
+
+.caixas-imagens .procastinate{
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    background-image: url(../images/grapes.jpg);
+}
+
+.unleash h1, .synergize h1, .procastinate h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 100px;
+}
+
+
+.products {
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+.products .caixas-products{
+    width: 20%;
+    height: 400px;
+    margin: 30px;
+    border: 1px solid black; 
+    float: left;
+}
+
+.products .caixas-products h2{
+    text-align: left;
+    color: orange;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.products .caixas-products p{
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.products .caixas-products .frame img{
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+.add-to-cart{
+    width: 100%;
+    margin: 10px;
+}
+
+.add-to-cart .input{
+    width: 30%;
+    height: 18px;
+    background: white;
+    border: 1px solid grey;
+    float: left;
+}
+
+.add-to-cart .input p, .add-to-cart .botao p{
+    width: 100%;
+    font-size: 11px;
+    color: grey;
+}
+
+.add-to-cart .botao p{
+    color: white;
+}
+
+.add-to-cart .botao{
+    width: calc(30% - 2px);
+    height: 20px;
+    background: orange;
+    float: left;
+}
+
+
+
+
+.service {
+    background-color: purple;
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.find-us {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.footer {
+    background-color: turquoise;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+

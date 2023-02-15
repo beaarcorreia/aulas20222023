@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+
+}
+
+.container{
+    width: 100%;
+    float: left;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.caixa-1{
+    flex: calc(50% - 40px);
+    height: 200px;
+    background: yellowgreen;
+    padding: 20px;
+    overflow: hidden;
+    margin: 20px;
+    float: left;
+}
