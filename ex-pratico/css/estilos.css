@@ -1,3 +1,8 @@
+.wrapper{
+    width: 100%;
+    float: left;
+}
+
 header {
     width: 100%;
     height: 50px;
@@ -48,31 +53,49 @@ nav .menu li:hover .dropdown{
     margin: 100px 200px 20px; 
 }
 
-.hero p {
+.hero p{
     font-size: 20px;
     color: white;
     margin: 20px 150px 20px; 
 }
 
+.hero .botao{
+    background-color: orange;
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+.hero .botao p{
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
 .quality {
-   /* background-color: blue;*/
     width: 100%;
     height: 200px;
     float: left;
     text-align: center;
 }
 
-.quality h1, .products h1{
+.quality h1, .products h1, .service h1, .find-us h1{
     font-size: 24px;
     color: orange;
     margin: 40px;
     text-align: center;
 }
 
-.quality p{
+.quality p, .service p, .find-us p{
     font-size: 16px;
     color: grey;
     margin: 20px 150px;
+    text-align: center;
 }
 
 
@@ -109,7 +132,6 @@ nav .menu li:hover .dropdown{
     font-size: 24px;
     padding: 100px;
 }
-
 
 .products {
     width: 100%;
@@ -157,44 +179,127 @@ nav .menu li:hover .dropdown{
     float: left;
 }
 
-.add-to-cart .input p, .add-to-cart .botao p{
+.add-to-cart .input p{
     width: 100%;
-    font-size: 11px;
+    font-size: 10px;
     color: grey;
 }
 
 .add-to-cart .botao p{
     color: white;
+    font-size: 10px;
 }
 
-.add-to-cart .botao{
+.add-to-cart .botao, .footer .newsletter .enter-email .botao{
     width: calc(30% - 2px);
     height: 20px;
     background: orange;
     float: left;
 }
 
+.service{
+    background: white;
+    width: 100%;
+    height: 500px;
+    float: left;
+}
 
+.img-service{
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 35%;
+    border-radius: 80%;
+    overflow: hidden;
+}
 
+.img-service img{
+    width: 100%;
+    float: left;
+}
 
-.service {
-    background-color: purple;
+.find-us {
+    background-color: white;
+    width: 100%;
+    height: 750px;
+    float: left;
+}
+
+.find-us .contact-us p{
+    margin: 5px;
+}
+
+.img-map img{
+    width: 100%;
+}
+
+.footer{
+    background-color: rgb(251, 249, 249);
     width: 100%;
     height: 200px;
     float: left;
 }
 
-.find-us {
-    background-color: yellowgreen;
+.footer .information, .footer .my-account, .footer .newsletter{
+    width: calc(33.3% - 80px);
+    float: left;
+    margin: 40px;
+}
+
+.footer .information li, .footer .my-account li, .footer .newsletter p{
+   font-size: 12px;
+   margin: 5px 0px;
+   color: grey;
+}
+
+.footer .newsletter .enter-email{
     width: 100%;
-    height: 300px;
     float: left;
 }
 
-.footer {
-    background-color: turquoise;
-    width: 100%;
-    height: 100px;
+.footer .newsletter .enter-email .input{
+    width: 50%;
+    float: left;
+    height: 18px;
+    background: white;
+    border: 1px solid grey;
+    padding: 0px 5px;
+}
+
+.footer .newsletter .enter-email .botao{
+    width: calc(20% - 2px);
     float: left;
 }
 
+.footer .newsletter .enter-email .botao p{
+    color: white;
+    text-align: center;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+
+.links{
+    width: 20%;
+    margin-left: 40%;
+    float: left;
+    margin-top: 20px;
+}
+
+.links li{
+    float: left;
+    width: 33.33%;
+    font-size: 10px;
+    color: orange;
+}
+
+.copyright p{
+    width: 100%;
+    float: left;
+    font-size: 10px;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

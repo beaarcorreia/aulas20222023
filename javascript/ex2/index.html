@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        lista2 = [2,4,56,7,89,33,2];
+        media_da_lista2 = calculaMedia(lista2);
+
+        notas_a_matematica = [10,12,13,8,17,20,3];
+        media_a_matematica = calculaMedia(notas_a_matematica);
+
+        document.write("A média da lista é: "+ media_da_lista2);
+        document.write("<br>");
+        document.write("A média de matemática é: "+media_a_matematica)
+
+        document.write("<br>");
+        mostraMensagem("Beatriz");
+
+        function calculaMedia(lista){  
+           /* var lista = [7,5,9,66,22,5,36,-9];*/
+
+            soma=0
+
+            tamanho = lista.length;
+
+            for(i=0; i<7; i=i+1){
+                numero_lido = lista[i];
+                soma = soma + numero_lido;
+            }
+        
+            media = soma / tamanho;
+            
+            // document.write(" A média é: " + media);
+
+            return media;
+        }
+
+        function mostraMensagem(destinatario){
+            document.write("Olá "+ destinatario);
+        }
+
+    </script>
+</body>
+</html>
