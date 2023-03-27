@@ -49,4 +49,8 @@ function fazAcaoDoBotao(){
 
     resultado = calculaMedia(dado_inserido_convertido);
     alert(resultado);
+
+    document.getElementById("zona-de-resultado").innerText = "A média é: " + resultado;
 }
+
+
