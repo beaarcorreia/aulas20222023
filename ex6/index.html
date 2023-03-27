@@ -12,9 +12,13 @@
     <title>Exercício 6</title>
 </head>
 
-<body>
+<body onresize="normalizaMenuMobile()">
     <nav class="menu-mobile">
-        <i class="fa-sharp fa-solid fa-bars" onclick="mostraConteudoMenu()"></i>
+
+        <span id="texto-menu" onclick="mostraConteudoMenu()">
+        <i class="fa-sharp fa-solid fa-bars"></i>
+        </span>
+
          <ul id="items-mobile">
             <li>
                 <a> Link 1 </a>
