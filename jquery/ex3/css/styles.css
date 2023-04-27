@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+}
+
+nav ul{
+    display: none;
+}
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    display: none;
+}
+
+.cx1{
+    background: purple;
+}
+
+.cx2{
+    background: lightblue;
+}
+
+.cx3{
+    background: pink;
+}
+
+.cx4{
+    background: salmon;
+}

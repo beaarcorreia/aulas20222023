@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 70%;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-left 15%;
+}
+
+.inputSelecionado{
+    background-color: orange;
+    border: 1px solid gray;
+    text-transform: uppercase;
+}
