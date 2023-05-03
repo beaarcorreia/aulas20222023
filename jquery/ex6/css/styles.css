@@ -1,0 +1,57 @@
+body{
+    background:orange;
+}
+
+.your-class{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.cx1, .cx2, .cx3{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+}
+
+img .cx1{
+    width: 100%;
+}
+
+.cx2 p, .cx3 p, .pg2 p, .pg3 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.cx3{
+    background-image: url("../images/imagem2.jpg");
+}
+
+.slick-dots li.slick-active button:before{
+    color: yellow;
+}
+
+.slick-dots li button:before{
+    color: green;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: purple;
+}
+
+
+.pg1, .pg2, .pg3{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+}
+
+img .pg1{
+    width: 100%;
+}
+
+.pg3{
+    background-image: url(../images/paularego2.jpg);
+}

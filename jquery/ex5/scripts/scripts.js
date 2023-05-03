@@ -3,7 +3,10 @@ $(document).ready(function(){
 });
 
 $(document).click(function(){
-    console.log('cliquei na pagina 1');
-    $('.content-pagina1').load('pagina1.html');
+    window.open('pagina1.html');
+    window.open('pagina2.html');
+    window.open('pagina3.html');
+    window.open('pagina4.html');
+
 });
 
