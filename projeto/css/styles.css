@@ -1,0 +1,159 @@
+body{
+
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.hero{
+    width: 100%;
+    height: 600px;
+    float: left;
+    background: url(../images/Untitled1.jpg);
+}
+
+.hero img{
+    width: 100%;
+    float: left; 
+}
+
+.hero .texto-hero{
+    width: calc(100% - 60px);
+    float: left;
+    margin: 100px 30px;
+}
+
+.hero .call2action{
+    width: calc(50% - 60px);
+    margin: 30px;
+    float: right;
+}
+
+.call2action button{
+
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+.logo{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.logo img{
+    width: calc(40% - 60px);
+    margin: 30px;
+}
+
+nav .menu-nav{
+    width: calc(50% - 60px);
+    height: 100%;
+    margin: 10px 30px;
+    float: right;
+}
+
+nav .menu-nav li{
+    list-style: none;
+    color: black;
+    float: right;
+    margin: 10px;
+}
+
+.servicos{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.servicos .descricao-servicos{
+    width: calc(100% - 60px);
+    float: left;
+    margin: 30px 0px 0px 30px;
+}
+
+.servicos .areas{
+    width: calc(50% - 60px);
+    float: right;
+    margin: 30px;
+    text-align: right;
+}
+
+.servicos .call2action{
+    width: calc(50% - 60px);
+    float: left;
+    margin: 270px 0px 0px 30px;
+}
+
+
+.projetos{
+    width: 100%;
+    height: 900px;
+    float: left;
+    background: blue;
+}
+
+.pedir-orcamento{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: purple;
+}
+
+.sobre{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: pink;
+}
+
+.sobre .foto-sobre{
+    width: calc(50% - 60px);
+    margin: 30px;
+    float: left;
+}
+
+.sobre .texto-sobre{
+    width: calc(50% - 60px);
+    margin: 30px;
+    float: right;
+    text-align: right;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background: black;
+}
+
+.footer .contactos-footer{
+    width: calc(50% - 60px);
+    margin: 30px;
+    float: left;
+    color: white;
+}
+
+.footer .menu-footer{
+    width: calc(50% - 60px);
+    margin: 30px;
+    float: right;
+}
+
+.footer .menu-footer li{
+    list-style: none;
+    color: white;
+    text-align: right;
+    margin: 10px;
+}
+
+.footer img{
+    width: 100%;
+    float: left;
+}
