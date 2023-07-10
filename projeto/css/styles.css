@@ -1,6 +1,45 @@
-body{
-
+@font-face {
+    font-family: exo2;
+    src: url(../fonts/font-awesome/webfonts/Exo2-Regular.woff);
 }
+
+body{
+    font-family: exo2;
+}
+
+h1{
+    font-family: exo2;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2{
+    font-family: exo2;
+    font-weight: bold;
+    font-size: 32px; 
+}
+
+h3{
+    font-family: exo2;
+    font-size: 24px; 
+}
+
+h4 {
+    font-family: exo2;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+p{
+    font-family: exo2;
+    font-size: 16px;   
+}
+
+.home{
+    width: 100%;
+    float: left;
+}
+
 .wrapper{
     width: 100%;
     height: 100%;
@@ -11,28 +50,29 @@ body{
     width: 100%;
     height: 600px;
     float: left;
-    background: url(../images/Untitled1.jpg);
+    background: url(../images/header.jpg);
 }
 
 .hero img{
     width: 100%;
-    float: left; 
+    float: left;
 }
 
 .hero .texto-hero{
-    width: calc(100% - 60px);
+    width: calc(80% - 100px);
     float: left;
-    margin: 100px 30px;
+    margin: 100px 50px;
+    color: white;
+}
+
+.hero .texto-hero h1{
+    margin-bottom: 20px;
 }
 
 .hero .call2action{
-    width: calc(50% - 60px);
-    margin: 30px;
-    float: right;
-}
-
-.call2action button{
-
+    width: 20%;
+    margin-top:350px;
+    float:right;  
 }
 
 nav{
@@ -41,108 +81,195 @@ nav{
     display: block;
 }
 
-.logo{
+nav .logo{
     width: 50%;
     height: 100%;
     float: left;
 }
 
-.logo img{
-    width: calc(40% - 60px);
-    margin: 30px;
+nav .logo img{
+    width: calc(40% - 100px);
+    margin: 40px 0px 0px 50px;
 }
 
 nav .menu-nav{
-    width: calc(50% - 60px);
+    width: calc(60% - 200px);
     height: 100%;
-    margin: 10px 30px;
+    margin: 20px 30px;
     float: right;
 }
 
 nav .menu-nav li{
     list-style: none;
-    color: black;
+    color: white;
     float: right;
-    margin: 10px;
+    padding: 20px;
 }
 
 .servicos{
     width: 100%;
-    height: 500px;
+    height: 600px;
     float: left;
+}
+
+.servicos .statement{
+    width: 100%;
+    opacity: 50%;
+    margin-top: -80px;
+}
+
+.servicos .statement img{
+    width: 100%;
 }
 
 .servicos .descricao-servicos{
-    width: calc(100% - 60px);
+    width: calc(100% - 100px);
     float: left;
-    margin: 30px 0px 0px 30px;
+    margin: 70px 0px 0px 50px;
+}
+
+.servicos .descricao-servicos h3{
+    margin-top: 20px;
 }
 
 .servicos .areas{
-    width: calc(50% - 60px);
+    width: calc(50% - 100px);
     float: right;
-    margin: 30px;
+    margin: 60px 50px 0px 0px;
     text-align: right;
 }
 
-.servicos .call2action{
-    width: calc(50% - 60px);
-    float: left;
-    margin: 270px 0px 0px 30px;
+.servicos .areas p{
+    margin: 10px 0px 25px 0px;
 }
 
+.servicos .call2action{
+    width: calc(50% - 100px);
+    float: left;
+    margin: 270px 0px 0px 50px;
+}
 
 .projetos{
     width: 100%;
-    height: 900px;
+    height: 700px;
     float: left;
-    background: blue;
+    background: white;
+}
+
+.projetos img{
+    height: 400px;
+    float: left;
+    margin: 50px 100px 50px 50px;
+}
+
+.projetos .titulo-projetos{
+    margin: 0px 0px 30px 50px;
+    width: 100%;
+    float: left;
+}
+
+.projetos .call2action{
+    width: 100%;
+    float: left;
 }
 
 .pedir-orcamento{
     width: 100%;
-    height: 500px;
+    height: 700px;
     float: left;
-    background: purple;
+    background: black;
+    color: white;
 }
+
+.pedir-orcamento .titulo-orcamento{
+    float: left;
+    width: calc(100% - 100px);
+    margin: 70px 50px;
+}
+
+.pedir-orcamento .formulario, .pedir-orcamento .info-projeto{
+    width: calc(50% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.pedir-orcamento p{
+    margin: 10px 0px 10px 0px;
+}
+
+.pedir-orcamento table{
+    margin: 20px 0px 0px 50px;
+}
+
+.pedir-orcamento button{
+    margin-top: 10px;
+}
+
+.pedir-orcamento .formulario input[type=text]{
+    width: 100%;
+    padding: 8px 80px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 
 .sobre{
     width: 100%;
-    height: 500px;
+    height: 700px;
     float: left;
-    background: pink;
+    background: black;
 }
 
-.sobre .foto-sobre{
-    width: calc(50% - 60px);
-    margin: 30px;
+.sobre .foto-sobre img{
+    width: 300px;
+    margin: 40px 0px 0px 50px;
     float: left;
 }
 
-.sobre .texto-sobre{
-    width: calc(50% - 60px);
-    margin: 30px;
+.sobre .titulos-sobre{
+    width: calc(50% - 50px);
     float: right;
+    margin: 40px 50px 0px 30px;
+    color: white;
+    text-align: right;
+}
+
+.sobre .titulos-sobre h3{
+    margin-top: 20px;
+
+}
+
+.sobre .bio{
+    margin: 200px 50px 0px 40px;
+    width: calc(50% - 40px);
+    float: right;
+    color: white;
     text-align: right;
 }
 
 .footer{
     width: 100%;
-    height: 400px;
     float: left;
     background: black;
 }
 
 .footer .contactos-footer{
-    width: calc(50% - 60px);
-    margin: 30px;
+    width: calc(50% - 100px);
+    margin: 50px;
     float: left;
     color: white;
 }
 
+.footer .contactos-footer p{
+    margin-top: 20px;
+}
+
 .footer .menu-footer{
-    width: calc(50% - 60px);
-    margin: 30px;
+    width: calc(50% - 100px);
+    margin: 50px;
     float: right;
 }
 
@@ -150,7 +277,7 @@ nav .menu-nav li{
     list-style: none;
     color: white;
     text-align: right;
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .footer img{
